@@ -39,7 +39,6 @@ classDiagram
     iPhone ..|> NavegadorNaInternet
 
 ``` Implementação em Java
-### Interface ReprodutorMusical
 
 public interface ReprodutorMusical {
     void tocar();
@@ -47,23 +46,17 @@ public interface ReprodutorMusical {
     void selecionarMusica(String musica);
 }
 
-### Interface AparelhoTelefonico
-
 public interface AparelhoTelefonico {
     void ligar(String numero);
     void atender();
     void iniciarCorreioVoz();
 }
 
-### Interface NavegadorNaInternet
-
 public interface NavegadorNaInternet {
     void exibirPagina(String url);
     void adicionarNovaAba();
     void atualizarPagina();
 }
-
-### Classe iPhone
 
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorNaInternet {
 
