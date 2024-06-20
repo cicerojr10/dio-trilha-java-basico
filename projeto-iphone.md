@@ -38,7 +38,7 @@ classDiagram
     iPhone ..|> AparelhoTelefonico
     iPhone ..|> NavegadorNaInternet
 
-## Implementação em Java
+``` Implementação em Java
 ### Interface ReprodutorMusical
 
 public interface ReprodutorMusical {
